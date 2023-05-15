@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Formi</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form>
+            <input type="text" placeholder="name" value="" name="input-name"><br>
+            <label>Surname: </label> <input type="text"><br>
+            <input type="password" placeholder="password"><br>
+
+            <!-- for="e-mail" woll focus the input when the user will clivk on the label -->
+            <label for="e-mail">Email:</label><input type="email" name="email" id="e-mail"><br>
+
+            <input type="file" name="send-file"><br>
+            <input type="date"><br>
+            <input type="number"><br>
+            <label>Radio Button</label><input type="radio" name="radio"><br>
+            <label>Checkbox</label><input type="checkbox" name="checkbox"><br>
+        </form>
+        <br>
+        <br>
+
+            <!-- Primer 2-->
+        <form method="post" action="">
+            <h2>Login Form</h2>
+            <label>Name:</label><input type="text" name="name" ><br>
+            <label>Surname:</label><input type="text" name="surname" ><br>
+            <label>Email:</label><input type="email" name="email" required><br>
+            <!-- <input type="submit" name="submit-btn"> -->
+            <!-- this is submit button too -->
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        <br>
+
+        <!-- Primer 3 -->
+        <form>
+            <h4>Prasanje broj 1</h4>
+            <label>A</label><input type="radio" name="prasanje" value="A"><br>
+            <label>B</label><input type="radio" name="prasanje" value="B"><br>
+            <label>c</label><input type="radio" name="prasanje" value="C">
+        </form>
+        <br>
+        <br>
+
+        <!-- Primer 4 -->
+        <form>
+            <h4>Prasanje broj 2</h4>
+            <label>1</label><input type="checkbox" name="prasanje-2" value="1"><br>
+            <label>2</label><input type="checkbox" name="prasanje-2" value="2"><br>
+            <label>3</label><input type="checkbox" name="prasanje-2" value="3">
+        </form>
+        <br>
+        <br>
+
+        <!-- Primer 5 -->
+        <form>
+            <select disabled>
+                <option>A</option><br>
+                <option>B</option><br>
+                <option>C</option>
+            </select>
+        </form>
+        <br>
+        <br>
+
+        <form>
+            <select multiple>
+                <optgroup label="Cars">
+                    <option>Audi</option>
+                    <option>BMW</option>
+                    <option>Mercedes</option>
+                </optgroup>
+                <optgroup label="Bikes">
+                    <option>Honda</option>
+                    <option>Yamaha</option>
+                    <option>Suzuki</option>
+                </optgroup>
+            </select>
+        </form>
+        <br>
+        <br>
+
+        <!-- Primer 7 -->
+        <h2>This is textarea</h2>
+        <form>
+        <textarea rows="10" cols="40"></textarea>
+        </form>
+        <br>
+        <br>
+
+        <!-- Primer 8 -->
+        <h2>This is fieldset</h2>
+        <form>
+            <fieldset>
+                <legend>Account Information</legend>
+                <label>Username: </label><input type="text" name="username"><br>
+                <label>Password: </label><input type="password" name="password">
+            </fieldset> 
+        </form>
+        <br>
+        <br>
+
+        <!-- div and span elements -->
+        <div>
+            <h4>This is cat</h4>
+            <img src="/cas_3/pictures/FELV-cat.jpg" width="300" height="300" alt="cat">
+        </div>
+
+        <span>This is span</span>
+        <p><span>This</span> is long paragraph with span tag in it</p>
+
+    </body>
+</html>
