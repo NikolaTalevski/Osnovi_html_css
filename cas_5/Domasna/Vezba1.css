@@ -1,0 +1,28 @@
+* {
+    /* box-sizing: content-box; */
+
+    /*
+    Total width: 345px + (2*5px) + (2*12px) = 379px 
+    Total height: 75px + (2*0px) + (2*12px) = 99px
+    Content box width: 345px
+    Content box height: 75px
+    */
+
+    box-sizing: border-box;
+
+    /* 
+    Total width: 345px
+    Total heigh: 75px
+    Content box width: 345px - (2*5px) - (2*12px) = 311px
+    Content box height: 75px - (2*0px) - (2*12px) = 51px
+    */
+}
+
+#rectangle {
+    width: 345px;
+    height: 75px;
+    background-color: lightblue;
+    border: 12px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+}

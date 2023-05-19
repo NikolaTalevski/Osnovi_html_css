@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(54, 107, 242);
+}
+
+.container {
+    background-color: rgb(26, 26, 88);
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+   
+}
+
+h2 {
+    
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.form {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.textarea {
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+label {
+    color: white;
+    font-size: 13px;
+}
+
+#a {
+    color: yellow;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+footer {
+    text-align: right;
+}
+
+.submit-btn {
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    background-color: rgb(87, 229, 87);
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.submit-btn:hover {
+    font-size: 17px;
+    color: black;
+}
