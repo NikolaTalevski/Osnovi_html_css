@@ -1,0 +1,70 @@
+.first-card {
+    width: 450px;
+    height: 250px;
+    border: 5px solid black;
+}
+.card-top {
+    height: 100px;
+}
+.card-top > img {
+    width: 100%;
+    height: 100%;
+}
+
+.second-card {
+    background-image: url("https://cdn.ferrari.com/cms/network/media/img/resize/5d26fdb7c3f9ec0af6475619-01_fb_ppl_intro_lp3lhwq8?width=1080");
+    width: 300px;
+    height: 500px;
+}
+
+.scard-top h3 {
+    font-size: 27px;
+    color: white;
+    text-align: center;
+}
+
+.scard-top p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.third-card {
+    background-color: aqua;
+    width: 600px;
+    height: 200px;
+    border: 5px solid black;
+   
+}
+
+.left-section {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.img {
+   
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.right-section {
+    width: 400px;
+    float: right;
+}
+
+.right-section a {
+    
+}
+
+#btn {
+    background-color: green;
+}
+
+#btn:hover {
+    background-color: red;
+    
+}
+

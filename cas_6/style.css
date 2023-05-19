@@ -1,0 +1,67 @@
+body {
+    /* background-image: url("cat.avif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.round-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0.7;
+    /* display: none; */
+}
+
+.round-image:hover {
+    opacity: 1;
+}
+
+.bike-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px dotted red;
+}
+
+.background-img {
+    width: 300px;
+    height: 300px;
+    background-image: url("https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.big-div {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(117, 60, 170);
+    border: 5px solid black;
+}
+
+.big-div > div {
+    width: 150px;
+    height: 150px;
+}
+
+/* .box {
+    width: 150px;
+    height: 150px;
+}*/
+.div-red {
+   background-color: red;
+    float: right;
+}
+
+.div-green {
+   background-color: green;
+   float: left;
+}
+
+.div-blue {
+    background-color: blue;
+    float: right;
+} 
