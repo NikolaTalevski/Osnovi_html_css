@@ -1,0 +1,35 @@
+.grey {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(176, 173, 173);
+    position: relative;
+}
+
+.darkgrey1 {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    position: absolute;
+}
+
+.darkgrey2 {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.darkgrey3 {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* top: 100%;
+    left: 100%;
+    transform: translate(-100%, -100%); */
+}
