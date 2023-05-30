@@ -1,0 +1,310 @@
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/015/414/032/original/flying-plane-above-the-clouds-aircraft-in-the-sky-travel-concept-illustration-for-advertising-airline-website-to-search-for-air-tickets-travel-agency-traveling-flyer-banner-illustration-vector.jpg");
+}
+    
+
+header {
+    font-size: 25px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+header a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+header a:hover {
+    background-color: rgb(85, 203, 243);
+    font-size: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background-color: rgb(152, 229, 255);
+    margin-top: 0;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.search {
+    height: 30px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.list li {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.list li a:hover {
+    background-color: rgb(85, 203, 243);
+    font-size: 35px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.box {
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(152, 229, 255);
+    margin-left: 410px;
+    border-radius: 10px;
+}
+
+.destinacija {
+    margin-right: 20px;
+}
+
+.tip {
+    margin-right: 20px;
+}
+
+.datum {
+    margin-right: 20px;
+}
+
+.btn {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translate(-80%, -70%);
+    margin-top: 20px;
+    height: 30px;
+    background-color: rgb(72, 72, 239);
+    color: white;
+}
+
+.btn:hover {
+    background-color: blue;
+    font: bolder;
+    cursor: pointer;
+}
+
+.contact {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(110, 207, 239);
+    width: 200px;
+    border-radius: 10px;
+}
+
+.contact h1 {
+    font-size: 30px;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contactfooter {
+    font-size: 30px;
+    background-color: rgb(110, 207, 239);
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: rgb(110, 207, 239);
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.about h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-leto p {
+    font-size: 20px;
+}
+
+.main-leto p a {
+    text-decoration: none;
+    color: black;
+}
+
+.Naslov-leto {
+    text-align: center;
+    font-size: 50px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Grcija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Turcija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gr {
+    background-color: rgb(110, 207, 239);
+    border-radius: 10px;
+}
+
+.tr {
+    background-color: rgb(110, 207, 239);
+    border-radius: 10px;
+}
+
+.eg {
+    background-color: rgb(110, 207, 239);
+    border-radius: 10px;
+}
+
+.Egipet {
+    text-align: center;
+}
+
+.main-esen p {
+    font-size: 20px;
+}
+
+.main-esen p a {
+    text-decoration: none;
+    color: black;
+}
+
+.Naslov-esen {
+    text-align: center;
+    font-size: 50px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Italija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Spanija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.it {
+    background-color: rgb(110, 207, 239);
+    border-radius: 10px;
+}
+
+.sp {
+    background-color: rgb(110, 207, 239);
+    border-radius: 10px;
+}
+
+.main-zima p {
+    font-size: 20px;
+}
+
+.main-zima p a {
+    text-decoration: none;
+    color: black;
+}
+
+.Naslov-zima {
+    text-align: center;
+    font-size: 50px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Svajcarija {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sw {
+    background-color: rgb(110, 207, 239);
+    border-radius: 10px;
+}
+
+.main-prolet p {
+    font-size: 20px;
+}
+
+.main-prolet p a {
+    text-decoration: none;
+    color: black;
+}
+
+.Naslov-prolet {
+    text-align: center;
+    font-size: 50px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.France {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fr {
+    background-color: rgb(110, 207, 239);
+    border-radius: 10px;
+}
+
