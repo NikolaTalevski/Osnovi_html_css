@@ -71,13 +71,13 @@ header a:hover {
 }
 
 .box {
-    width: 700px;
+    margin: 0 auto;
+    width: 800px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(152, 229, 255);
-    margin-left: 410px;
     border-radius: 10px;
 }
 
@@ -94,28 +94,67 @@ header a:hover {
 }
 
 .btn {
-    position: absolute;
-    top: 80%;
-    left: 70%;
-    transform: translate(-80%, -70%);
-    margin-top: 20px;
-    height: 30px;
-    background-color: rgb(72, 72, 239);
+    margin-top: 150px;  
+}
+
+.btn-a {
+    text-decoration: none;
     color: white;
 }
 
-.btn:hover {
+.btn1 {
     background-color: blue;
+    color: white;
+    height: 30px;
+}
+
+.btn1:hover {
+    background-color: rgb(27, 27, 44);
     font: bolder;
     cursor: pointer;
+}
+
+.contact1 {
+    display: flex;
 }
 
 .contact {
     text-align: center;
     margin: 0 auto;
     background-color: rgb(110, 207, 239);
-    width: 200px;
+    width: 400px;
     border-radius: 10px;
+}
+
+.form {
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(110, 207, 239);
+    width: 400px;
+    border-radius: 10px;
+}
+
+.form input  {
+    width: 200px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.form select {
+    width: 200px;
+}
+
+.btn-contact1 {
+    background-color: blue;
+}
+
+.btn-contact1:hover {
+    background-color: black;
+}
+
+.btn-contact {
+    text-decoration: none;
+    color: white;
 }
 
 .contact h1 {
@@ -308,3 +347,36 @@ header a:hover {
     border-radius: 10px;
 }
 
+@media screen and (max-width: 500px) {
+    .contact1 {
+        flex-direction: column;
+    }
+    .contact {
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    .about {
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu {
+        flex-direction: column;
+        background-color: aquamarine;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-leto {
+        flex-direction: column;
+    }
+    .box1 {
+        flex-direction: column;
+    }
+    .box2 {
+        flex-direction: column;
+    }
+}
